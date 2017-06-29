@@ -1,0 +1,1 @@
+﻿& 'C:\Program Files\Symantec\Symantec Endpoint Protection\Smc.exe' -stop 
