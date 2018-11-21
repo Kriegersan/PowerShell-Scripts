@@ -16,6 +16,5 @@ foreach ($server in $servers) {
 
 Invoke-WmiMethod -class Win32_process -name Create -ArgumentList ("cmd.exe /c ipconfig /flushdns") -ComputerName $server -Credential $cred
 
-Invoke-WmiMethod -class Win32_process -name Create -ArgumentList ("cmd.exe /c ipconfig /registerdns") -ComputerName $server -Credential $cred
 
 }
